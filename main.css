@@ -1,0 +1,107 @@
+
+
+Body {
+  background: lightgrey;
+}
+
+
+h1{
+  color: #484553;
+  font-family: fantasy;
+  font: chalkduster;
+  align: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: .8;
+}
+
+.Navi {
+  font-family: fantasy;
+  font: chalkduster;
+  text-align: center;
+  float: right;
+  line-height: .8;
+}
+
+.Button{
+  font-size: 20px;
+  color: #484553;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  border: 15px solid #b63082;
+  border-radius: 25px;
+  overflow: hidden;
+  transition: 1s all ease;
+}
+.Button::before{
+  background: #c05095;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 1.2s ease;
+}
+
+.Button::before{
+  width: 500%;
+  height: 0%;
+  transform: translate(-50%,-50%) rotate(45deg);
+}
+.Button:hover::before{
+  height: 700%;
+  width: 500%;
+}
+
+.Paragraph {
+  font-family: fantasy;
+  font: chalkduster;
+  font-size: 20px;
+  border: 15px solid #c05095;
+  border-radius: 25px;
+  width: 50%;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.Bullet {
+  font-family: fantasy;
+  font: chalkduster;
+  border: 10px solid #c05095;
+  border-radius: 25px;
+  font-size: 30px;
+  margin: 5px;
+
+
+}
+
+.Bullet2 {
+  font-family: fantasy;
+  font: chalkduster;
+  font-size: 20px;
+  border: 15px solid #c05095;
+  border-radius: 25px;
+  width: 50%;
+  margin: auto;
+  margin-top: 5px;
+
+}
+
+.BulletHead {
+  text-align: center;
+}
+
+.Images {
+  border: 10px solid #c05095;
+  border-radius: 1000px;
+  margin-top: 5px;
+}
+
+.Images2 {
+  border: 10px solid #c05095;
+  border-radius: 100px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
